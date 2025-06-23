@@ -11,3 +11,10 @@ I made my keyboard layout, first I scrolled through the hotkeys section on OBS i
 Keyboard Layout:
 
 ![Keeb Layout](https://hc-cdn.hel1.your-objectstorage.com/s/v3/5e01f2fea7ed85336f73a7fc70c460d9d3f80123_image.png)
+
+Here is the code for the layout:
+```json
+["Mute\nUnmute", "Start\nStop", "Countdown"],
+["Scene 1", "Scene 2", "Scene 3"],
+["Post\nMesg", "Record", "Mute/Un\nScreen"]
+```
