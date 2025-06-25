@@ -31,5 +31,12 @@ Here is the picture of my schematic!:
 
 The No Connection (NC) pins you see on the first 8 pins on both sides of the Pico are the pins needed for the SHIM. Essentially, you just solder all 16 pins to the SHIM and it *should* work out of the box!
 
-Time Spent This Session: 2 hours
-The
+I also got started on my PCB and encountered a very big problem, the LiPo batteries online are too big for my current size. Once a PCB exceeds 100x100mm, its price can increase significantly. The average 100MaH LiPo battery is approx 20x40mm which means it takes up a big chunk of my size, other than that most things are going pretty well.
+
+I did have to research the spacing for cherry mx switches in order to have proper spacing. Unlike the choc which had gap in between each switch, the cherry mx switches sit beside each other, which I think is amazing for compact designs like a macropad!
+
+Here is what I have for my PCB so far:
+
+![Unfinished PCB](https://hc-cdn.hel1.your-objectstorage.com/s/v3/660447d9d6ce91159810b8ea82c55892988ea420_image.png)
+
+Time Spent This Session: 3 hours
