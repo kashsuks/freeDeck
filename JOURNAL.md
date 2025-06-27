@@ -19,7 +19,7 @@ Here is the code for the layout:
 ["Post\nMesg", "Record", "Mute/Un\nScreen"]
 ```
 
-Total Time Spent This Session: 2 Hours
+**Total Time Spent This Session**: 2 Hours
 
 # June 24
 
@@ -39,4 +39,25 @@ Here is what I have for my PCB so far:
 
 ![Unfinished PCB](https://hc-cdn.hel1.your-objectstorage.com/s/v3/660447d9d6ce91159810b8ea82c55892988ea420_image.png)
 
-Time Spent This Session: 3 hours
+**Time Spent This Session**: 3 hours
+
+
+# June 27
+
+This day was uhh pretty tough. First, I realized that my lipi battery would not fit if I were to use a pico. Thats when someone told me about the XIAO RP2040ESPC3 which has battery management inbuilt that uses a B+ and  B- pin. That means that if I use a lipo without a JST connector, I can just solder the red to +ve and black to -ve and it _should__ work out of the box.
+
+So I got to work, first I updated my schematic to use the C3's symbol (DIP). This didnt take long since it was just changing the wires. 
+
+![Update Schematic](https://hc-cdn.hel1.your-objectstorage.com/s/v3/6554559b3b1b1dc44942cf5ad7a5e87cb2cde7de_image.png)
+
+And....
+
+I also worked on the pcb!!
+
+This was a bit more difficult since I had to delete all my progress so far and just restart with the new components. This change also allowed me possibly add a larger lipo battery.
+
+And heres what I have so far for my PCB:
+
+![Updated PCB](https://hc-cdn.hel1.your-objectstorage.com/s/v3/678cc5a84d751f1c1bee1c185a9f40fd0722f42e_image.png)
+
+**Total Time Spent This Session**: 2 Hours
